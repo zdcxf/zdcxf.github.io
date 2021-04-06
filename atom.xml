@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-04-06T07:28:18.964Z</updated>
+  <updated>2021-03-28T13:07:04.715Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,39 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>My New Post</title>
-    <link href="http://example.com/2021/04/06/My-New-Post/"/>
-    <id>http://example.com/2021/04/06/My-New-Post/</id>
-    <published>2021-04-06T07:28:18.000Z</published>
-    <updated>2021-04-06T07:28:18.964Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://example.com/2021/04/06/sed%E5%88%A0%E9%99%A4%E8%A1%8C%E9%A6%96%E8%A1%8C%E5%B0%BE%E8%8B%A5%E5%B9%B2%E5%AD%97%E7%AC%A6/"/>
-    <id>http://example.com/2021/04/06/sed%E5%88%A0%E9%99%A4%E8%A1%8C%E9%A6%96%E8%A1%8C%E5%B0%BE%E8%8B%A5%E5%B9%B2%E5%AD%97%E7%AC%A6/</id>
-    <published>2021-04-06T07:22:04.473Z</published>
-    <updated>2021-04-06T07:21:41.197Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="sed删除行首行尾若干字符"><a href="#sed删除行首行尾若干字符" class="headerlink" title="sed删除行首行尾若干字符"></a>sed删除行首行尾若干字符</h1><p><code> cat t</code><br> ![](vx_images/4098710198677.png =300x)</p><p>每行行首<br> <code>sed -e &#39;s#..##&#39; t</code><br>![](vx_images/1914293756200.png =300x)</p><p>特定行首<br><code>sed -e &#39;1 s#..##&#39; t</code><br>![](vx_images/856503545292.png =300x)</p><p>每行行尾<br><code>sed -e &#39;s#..$##&#39; t</code><br>![](vx_images/5461526871043.png =300x)</p><p>特定行尾<br><code>sed -e &#39;$ s#..$##&#39; t</code><br>![](vx_images/2138391819447.png =300x)</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;sed删除行首行尾若干字符&quot;&gt;&lt;a href=&quot;#sed删除行首行尾若干字符&quot; class=&quot;headerlink&quot; title=&quot;sed删除行首行尾若干字符&quot;&gt;&lt;/a&gt;sed删除行首行尾若干字符&lt;/h1&gt;&lt;p&gt;&lt;code&gt; cat t&lt;/code&gt;&lt;br&gt; ![</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
