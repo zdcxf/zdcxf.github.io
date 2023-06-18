@@ -1,6 +1,1 @@
-/*设置图片居中*/
-img.img-center {
-    display: block;
-    margin: auto;
-    text-align: center;
-}
+img.img-center{display:block;margin:auto;text-align:center}
