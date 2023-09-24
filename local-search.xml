@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Win10/Win11使用照片查看器</title>
+    <link href="/p/922670254.html"/>
+    <url>/p/922670254.html</url>
+    
+    <content type="html"><![CDATA[<blockquote><p><code>Win11</code>新的<code>照片</code>用不惯，还是 <code>Windows 照片查看器</code>用的习惯。</p></blockquote><p>按下 <code>win + R</code> 组合键，输入 <code>regedit</code> ，按下 <code>Enter</code> 回车键。</p><img src="https://ghproxy.com/https://raw.githubusercontent.com/zdcxf/blog_pic_bed/master/pic/202309241834398.webp" alt="访问路径" class="img-center" style="zoom:50%" /><p>地址栏选中路径 <code>Ctrl + v</code> 或者右键单击选择粘贴下方路径地址：</p><figure class="highlight moonscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs moonscript">计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Photo Viewer\Capabilities\FileAssociations<br></code></pre></td></tr></table></figure><p>回车出现下方界面，空白处右键单击，新建字符串值。</p><img src="https://ghproxy.com/https://raw.githubusercontent.com/zdcxf/blog_pic_bed/master/pic/202309241839915.webp" alt="新建字符串值" class="img-center" style="zoom:70%" /><p>举个例子，比如现在想要使用 <code>Windows 照片查看器</code> 打开 <code>.webp</code> 格式的图片，那么字符串值就命名为 <code>.webp</code> ，创建后左键双击编辑字符串值为 <code>PhotoViewer.FileAssoc.Tiff</code> ，回车确定。</p><img src="https://ghproxy.com/https://raw.githubusercontent.com/zdcxf/blog_pic_bed/master/pic/202309241843789.webp" alt="编辑字符串" class="img-center" style="zoom:70%"/><p>依此类推，常用图片格式如：<code>.jpg</code>、<code>.jpeg</code>、<code>.png</code> 等，只有新建字符串值命名不一样，其余和上述步骤一样。</p><p>此时双击想要打开的图片，会弹出选择一个应用打开文件，选择 <code> Windows 照片查看器</code> 然后点击<code>始终</code>，之后再打开此类图片，就会默认选择了，至此大功告成。</p><img src="https://ghproxy.com/https://raw.githubusercontent.com/zdcxf/blog_pic_bed/master/pic/202309241849462.webp" alt="选择照片查看器" class="img-center" style="zoom:50%"/>]]></content>
+    
+    
+    <categories>
+      
+      <category>折腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Windows</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>splunk 之高级时间范围选项</title>
     <link href="/p/138902660.html"/>
     <url>/p/138902660.html</url>
