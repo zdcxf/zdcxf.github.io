@@ -1,1 +1,1 @@
-img.img-square{width:14rem;height:14rem;object-fit:cover}
+img.img-square{aspect-ratio:1/1;object-fit:cover}
