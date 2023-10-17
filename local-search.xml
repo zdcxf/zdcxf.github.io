@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Fluid正文图片缩略图设为正方形</title>
+    <link href="/p/3730595681.html"/>
+    <url>/p/3730595681.html</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>最近几次发组图发现4:3和3:4图片放在一起不太协调，于是便想都调整为正方形，一边查资料一边踩坑，不过总算达成预期了。</p></blockquote><h1 id="新建CSS文件"><a href="#新建CSS文件" class="headerlink" title="新建CSS文件"></a>新建CSS文件</h1><p>Hexo 根目录 <code>themes\fluid\source\css\</code> 下新建 <code>square.css</code> 文件，并编辑内容如下。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-comment">/*设置图片预览正方形*/</span><br><span class="hljs-selector-tag">img</span><span class="hljs-selector-class">.img-square</span> &#123;<br><span class="hljs-attribute">width</span>: <span class="hljs-number">100%</span>;<br>aspect-ratio: <span class="hljs-number">1</span>;<br>    <span class="hljs-attribute">object-fit</span>: cover;<br>&#125;<br></code></pre></td></tr></table></figure><h1 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h1><p>修改 Hexo 根目录下 <code>_config.fluid.yml</code> 文件，找到 <code>custom_css:</code> 并修改内容如下。</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-comment"># 指定自定义 .css 文件路径，用法和 custom_js 相同</span><br><span class="hljs-comment"># The usage is the same as custom_js</span><br>custom_css:<br>- <span class="hljs-regexp">/css/</span>square.css<br></code></pre></td></tr></table></figure><h1 id="应用示例"><a href="#应用示例" class="headerlink" title="应用示例"></a>应用示例</h1><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs routeros">&lt;img <span class="hljs-attribute">src</span>=<span class="hljs-string">&quot;image.jpg&quot;</span> <span class="hljs-attribute">alt</span>=<span class="hljs-string">&quot;describe&quot;</span> <span class="hljs-attribute">class</span>=<span class="hljs-string">&quot;img-square&quot;</span>&gt;<br></code></pre></td></tr></table></figure><h1 id="重新生成"><a href="#重新生成" class="headerlink" title="重新生成"></a>重新生成</h1><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs 1c">hexo clean <span class="hljs-meta">&amp; hexo g</span><br></code></pre></td></tr></table></figure><h1 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h1><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">hexo s</span><br></code></pre></td></tr></table></figure><h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><p><a href="https://juejin.cn/post/7204485623461691450">2023年CSS自适应正方形必须拿下</a><br><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/aspect-ratio">Web 开发技术&gt;CSS：层叠样式表&gt;aspect-ratio</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>折腾</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Fluid</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>影</title>
     <link href="/p/3177552054.html"/>
     <url>/p/3177552054.html</url>
